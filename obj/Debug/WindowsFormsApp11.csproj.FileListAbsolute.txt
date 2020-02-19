@@ -24,3 +24,17 @@ C:\Users\Student\Desktop\CarService-master\obj\Debug\WindowsFormsApp11.csproj.Ge
 C:\Users\Student\Desktop\CarService-master\obj\Debug\WindowsFormsApp11.csproj.CoreCompileInputs.cache
 C:\Users\Student\Desktop\CarService-master\obj\Debug\WindowsFormsApp11.exe
 C:\Users\Student\Desktop\CarService-master\obj\Debug\WindowsFormsApp11.pdb
+C:\Users\Abra\1\car\obj\Debug\WindowsFormsApp11.csprojAssemblyReference.cache
+C:\Users\Abra\1\car\obj\Debug\WindowsFormsApp11.CategoryForm.resources
+C:\Users\Abra\1\car\obj\Debug\WindowsFormsApp11.Filtr.resources
+C:\Users\Abra\1\car\obj\Debug\WindowsFormsApp11.Form1.resources
+C:\Users\Abra\1\car\obj\Debug\WindowsFormsApp11.CarDetailForm.resources
+C:\Users\Abra\1\car\obj\Debug\WindowsFormsApp11.HelpForm.resources
+C:\Users\Abra\1\car\obj\Debug\WindowsFormsApp11.csproj.GenerateResource.cache
+C:\Users\Abra\1\car\obj\Debug\WindowsFormsApp11.exe
+C:\Users\Abra\1\car\obj\Debug\WindowsFormsApp11.pdb
+C:\Users\Abra\1\car\bin\Debug\WindowsFormsApp11.exe.config
+C:\Users\Abra\1\car\bin\Debug\WindowsFormsApp11.exe
+C:\Users\Abra\1\car\bin\Debug\WindowsFormsApp11.pdb
+C:\Users\Abra\1\car\obj\Debug\WindowsFormsApp11.Properties.Resources.resources
+C:\Users\Abra\1\car\obj\Debug\WindowsFormsApp11.csproj.CoreCompileInputs.cache
