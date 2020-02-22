@@ -44,10 +44,10 @@
             this.button5 = new System.Windows.Forms.Button();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.справкаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.dfgdfgToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.label1 = new System.Windows.Forms.Label();
             this.button6 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
-            this.dfgdfgToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.tableLayoutPanel1.SuspendLayout();
@@ -121,8 +121,8 @@
             this.tableLayoutPanel1.Controls.Add(this.pictureBox2, 1, 1);
             this.tableLayoutPanel1.Controls.Add(this.button5, 0, 2);
             this.tableLayoutPanel1.Controls.Add(this.button2, 1, 0);
-            this.tableLayoutPanel1.Controls.Add(this.button1, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.pictureBox1, 0, 1);
+            this.tableLayoutPanel1.Controls.Add(this.button1, 0, 0);
             this.tableLayoutPanel1.Location = new System.Drawing.Point(66, 169);
             this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(2);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
@@ -248,22 +248,29 @@
             this.справкаToolStripMenuItem.Text = "Справка";
             this.справкаToolStripMenuItem.Click += new System.EventHandler(this.helpToolStripMenuItem_Click);
             // 
+            // dfgdfgToolStripMenuItem
+            // 
+            this.dfgdfgToolStripMenuItem.Name = "dfgdfgToolStripMenuItem";
+            this.dfgdfgToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
+            this.dfgdfgToolStripMenuItem.Text = "Фильтр";
+            this.dfgdfgToolStripMenuItem.Click += new System.EventHandler(this.DfgdfgToolStripMenuItem_Click);
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.Font = new System.Drawing.Font("T-FLEX Type TU", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label1.ForeColor = System.Drawing.SystemColors.Info;
-            this.label1.Location = new System.Drawing.Point(215, 64);
+            this.label1.Location = new System.Drawing.Point(215, 117);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(277, 31);
+            this.label1.Size = new System.Drawing.Size(321, 33);
             this.label1.TabIndex = 8;
             this.label1.Text = "выбери себе Машину";
             this.label1.Click += new System.EventHandler(this.Label1_Click);
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(550, 0);
+            this.button6.Location = new System.Drawing.Point(611, 1);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(75, 23);
             this.button6.TabIndex = 10;
@@ -279,13 +286,6 @@
             this.button7.Text = "выход";
             this.button7.UseVisualStyleBackColor = true;
             // 
-            // dfgdfgToolStripMenuItem
-            // 
-            this.dfgdfgToolStripMenuItem.Name = "dfgdfgToolStripMenuItem";
-            this.dfgdfgToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
-            this.dfgdfgToolStripMenuItem.Text = "Фильтр";
-            this.dfgdfgToolStripMenuItem.Click += new System.EventHandler(this.DfgdfgToolStripMenuItem_Click);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -298,6 +298,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.menuStrip1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Margin = new System.Windows.Forms.Padding(2);
             this.MinimumSize = new System.Drawing.Size(379, 170);
             this.Name = "Form1";

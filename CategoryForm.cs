@@ -26,13 +26,19 @@ namespace WindowsFormsApp11
             {
                 button1.Text = "Pagani Zonda";
                 button2.Text = "McLaren Senna";
-                button3.Visible = false;
+                button3.Text = "Bugatti ";
+                button4.Text = "Ferrari California";
+                button5.Text = "lamborhgini aventador";
+                button6.Text = "R8";
             }
             else if (category == "Бюджетные авто")
             {
                 button1.Text = "Renault Logan";
-                button2.Visible = false;
-                button3.Visible = false;
+                button2.Text = "audi 80";
+                button3.Text = "chevrolet niva";
+                button4.Text = "ford siera";
+                button5.Text = "vaz 2109";
+                button6.Text = "wf golf";
             }
             else if (category == "Бизнес-класс")
             {
@@ -45,15 +51,30 @@ namespace WindowsFormsApp11
             }
             else if (category == "Внедорожники")
             {
-                button2.Text = "Ford Raptor"; 
+                button1.Text = "Ford Raptor";
+                button2.Text = "lamborhgini urus";
+                button3.Text = "Renault coleos";
+                button4.Text = "undai santafe";
+                button5.Text = "vaz-2121";
+                button6.Text = "G63";
             }
             else if (category == "Премиум")
             {
-                button2.Text = "Mersedes 221";
+                button1.Text = "Mersedes 221";
+                button2.Text = "Audi-A8";
+                button3.Text = "BMW Premium";
+                button4.Text = "GAZ-31";
+                button5.Text = "RR Phantom";
+                button6.Text = "VW-Phaeton";
             }
             else if (category == "Классика")
             {
-                button2.Text = "Mersedes 124";
+                button1.Text = "Mersedes 124";
+                button2.Text = "BMW 5";
+                button3.Text = "Ferrari Testarossa";
+                button4.Text = "lamborghini-countach";
+                button5.Text = "Pobeda";
+                button6.Text = "Corvette C3";
             }
             else
             {
