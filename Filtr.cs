@@ -23,15 +23,13 @@ namespace WindowsFormsApp11
             Klass = KlassCar;
             price = priceCar;
             btn = b;
-
         }
     }
 
 
     public partial class Filtr : Form
     {
-
-        Car[] cars = new Car[1000];
+        public static Car[] cars = new Car[1000];
 
 
 
@@ -45,6 +43,12 @@ namespace WindowsFormsApp11
             cars[3] = new Car("KIA rio", "Бизнес", 300000, button3);
             cars[4] = new Car("Renault Fluence", "Бизнес", 458000, button6);
             cars[5] = new Car("WF Polo", "Бизнес", 290000, button7);
+
+            //Ко всем кнпокам привязываем функцию клика
+            for (int i = 0; i < 6; i++)
+            {
+                cars[i].btn.Click += new EventHandler(openCar);
+            }
         }
 
         private void Button1_Click(object sender, EventArgs e)
@@ -81,6 +85,20 @@ namespace WindowsFormsApp11
             }
         }
 
+        public static void openCar(object sender, EventArgs e)
+        {
+            //Бегаем по всем кнопкам
+            for (int i = 0; i < 6; i++)
+            {
+                //И для нужной открываем форму
+                if (((Button)sender).Text == cars[i].btn.Text)
+                {
+                    CarDetailForm form = new CarDetailForm(cars[i]);
+                    form.Show();
+                }
+            }
+        }
+
         private void TextBox2_TextChanged(object sender, EventArgs e)
         {
 
@@ -94,6 +112,11 @@ namespace WindowsFormsApp11
         }
 
         private void Label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button2_Click(object sender, EventArgs e)
         {
 
         }

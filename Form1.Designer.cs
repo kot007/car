@@ -48,6 +48,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.button6 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
+            this.корзинаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.tableLayoutPanel1.SuspendLayout();
@@ -233,7 +234,8 @@
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.справкаToolStripMenuItem,
-            this.dfgdfgToolStripMenuItem});
+            this.dfgdfgToolStripMenuItem,
+            this.корзинаToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
@@ -285,6 +287,13 @@
             this.button7.TabIndex = 11;
             this.button7.Text = "выход";
             this.button7.UseVisualStyleBackColor = true;
+            // 
+            // корзинаToolStripMenuItem
+            // 
+            this.корзинаToolStripMenuItem.Name = "корзинаToolStripMenuItem";
+            this.корзинаToolStripMenuItem.Size = new System.Drawing.Size(65, 20);
+            this.корзинаToolStripMenuItem.Text = "Корзина";
+            this.корзинаToolStripMenuItem.Click += new System.EventHandler(this.КорзинаToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -339,6 +348,7 @@
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.ToolStripMenuItem dfgdfgToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem корзинаToolStripMenuItem;
     }
 }
 

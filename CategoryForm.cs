@@ -111,14 +111,14 @@ namespace WindowsFormsApp11
 
         private void button6_Click(object sender, EventArgs e)
         {
-            CarDetailForm form = new CarDetailForm(button1.Text);
-            form.Show();
+            /*CarDetailForm form = new CarDetailForm(button1.Text);
+            form.Show();*/
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            CarDetailForm form = new CarDetailForm(button2.Text);
-            form.Show();
+            /*CarDetailForm form = new CarDetailForm(button2.Text);
+            form.Show();*/
         }
 
         private void CategoryForm_Load(object sender, EventArgs e)

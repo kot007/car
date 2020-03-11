@@ -75,5 +75,12 @@ namespace WindowsFormsApp11
             form.Show();
 
         }
+
+        private void КорзинаToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+            korzina form = new korzina();
+            form.Show();
+        }
     }
 }
